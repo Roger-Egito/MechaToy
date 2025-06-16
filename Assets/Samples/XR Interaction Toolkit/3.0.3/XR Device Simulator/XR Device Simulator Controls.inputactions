@@ -63,7 +63,7 @@
                     "name": "Manipulate Left",
                     "type": "Button",
                     "id": "07c46cc4-c35d-4364-a878-68fad8ab8c64",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -72,7 +72,7 @@
                     "name": "Manipulate Right",
                     "type": "Button",
                     "id": "307cb608-f32e-48a3-8ce6-d1cd83a5fb90",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -81,7 +81,7 @@
                     "name": "Manipulate Head",
                     "type": "Button",
                     "id": "f5febf74-651b-4f73-8d0a-08b0acdabc4d",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -153,7 +153,7 @@
                     "name": "Negate Mode",
                     "type": "Button",
                     "id": "8c837143-e018-41f0-9e0e-907acb9d7360",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -189,7 +189,7 @@
                     "name": "Reset",
                     "type": "Button",
                     "id": "339ccb79-aee9-4ba4-8864-3b6c81c199db",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -198,7 +198,7 @@
                     "name": "Toggle Cursor Lock",
                     "type": "Button",
                     "id": "9bd36ab1-f676-4ff4-8a4d-ba0c6fb36268",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -207,7 +207,7 @@
                     "name": "Toggle Primary 2D Axis Target",
                     "type": "Button",
                     "id": "e0fdec2d-309b-4313-aad7-9dcc71f1394d",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -216,7 +216,7 @@
                     "name": "Toggle Secondary 2D Axis Target",
                     "type": "Button",
                     "id": "b3b49ea5-f80f-4d24-a782-d61a13a004b3",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -225,7 +225,7 @@
                     "name": "Toggle Device Position Target",
                     "type": "Button",
                     "id": "15cd3c4a-56b1-4a43-a924-a2118e2adaf4",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -330,6 +330,28 @@
                     "action": "Keyboard Y Translate",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "fcfb16fb-edee-474c-b1f2-f10b2a0a3569",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Manipulate Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e791caef-78d3-4f68-9104-212f73ac0642",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Manipulate Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
@@ -454,6 +476,39 @@
                 },
                 {
                     "name": "",
+                    "id": "4bfdd0e6-1936-4f44-8e97-20e16dbc879f",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Primary 2D Axis Target",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81d47d9e-4920-4098-94d8-bac2888d6433",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Secondary 2D Axis Target",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9404bec7-672a-4fb1-adb3-e2dc4e32801b",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle Device Position Target",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "5dacc4c7-2e70-4500-8c72-99595c72b49e",
                     "path": "<Keyboard>/tab",
                     "interactions": "",
@@ -477,7 +532,7 @@
                 {
                     "name": "",
                     "id": "e8a0a3b9-06cf-40a8-86d8-1d8f1d704451",
-                    "path": "<Keyboard>/2",
+                    "path": "<Keyboard>/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -488,7 +543,7 @@
                 {
                     "name": "",
                     "id": "b62df009-54c9-4b03-9721-07ca66fe1bdf",
-                    "path": "<Keyboard>/1",
+                    "path": "<Keyboard>/t",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -515,61 +570,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Hand-Controller Mode",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b3627cba-db0c-4b4b-81dd-0d32bdfef52b",
-                    "path": "<Keyboard>/minus",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Manipulate Left",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c74d5299-edb1-44a5-bb14-bd9d5800eac3",
-                    "path": "<Keyboard>/equals",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Manipulate Right",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6cc027de-11e2-462d-bbcd-eb808cef8603",
-                    "path": "<Keyboard>/f17",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Toggle Primary 2D Axis Target",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ec96cbee-d6bc-467a-a7e0-1597a7c76c93",
-                    "path": "<Keyboard>/f18",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Toggle Secondary 2D Axis Target",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "3ded1f5a-4c91-4ecd-b2b6-989104f0f885",
-                    "path": "<Keyboard>/f19",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Toggle Device Position Target",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
